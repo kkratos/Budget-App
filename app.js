@@ -222,10 +222,10 @@ var UIController = (function() {
       // 1. Create HTML string with placeholder text
       if (type === 'inc') {
         element = DOMStrings.incomeContainer;
-        html = '<div class="item clearfix" id="inc-%id%"><div class="item__description">%description%</div><div class="right clearfix"><div class="item__value">%value%</div><div class="item__delete"><button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button></div></div></div>'
+        html = '<div class="item clearfix" id="inc-%id%"><div class="item__description">%description%</div><div class="right clearfix"><div class="item__value">%value%</div><div class="item__delete"><button class="item__delete--btn"><i class="iconify" data-icon="entypo:cross" data-inline="false"></i></button></div></div></div>'
       } else {
         element = DOMStrings.expenseContainer;
-        html = '<div class="item clearfix" id="exp-%id%"><div class="item__description">%description%</div><div class="right clearfix"><div class="item__value">%value%</div><div class="item__percentage">21%</div><div class="item__delete"><button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button></div></div></div>'
+        html = '<div class="item clearfix" id="exp-%id%"><div class="item__description">%description%</div><div class="right clearfix"><div class="item__value">%value%</div><div class="item__percentage">21%</div><div class="item__delete"><button class="item__delete--btn"><i class="iconify" data-icon="entypo:cross" data-inline="false"></i></button></div></div></div>'
       }
       // 2. Replace placeholder text with actual data
       newHTML = html.replace('%id%', obj.id);
