@@ -1,4 +1,4 @@
 # Budget-App
-learning javascript building Budget App 
+Applied javascript knowledge to build Budget App 
 
 ![budget](budget.png)
